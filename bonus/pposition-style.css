@@ -1,0 +1,50 @@
+h1{
+    font-size: 3em;
+}
+li{
+    font-size: 1.5em;
+}
+small{
+    color: gray;
+}
+img{
+    width: 100px;
+}
+.empty{
+    height: 100px;
+    width: 100px;
+    border: 3px dotted gray;
+}
+
+/* play with position */
+
+/* static */
+.web{
+    position: static;
+}
+
+/* relative */
+.potions{
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+
+/* absolute */
+.knife{
+    position: absolute;
+    top: 10; /* dosent work */
+    left: 20; /* dosent work */
+}
+
+/* fixed */
+.owl{
+    position: fixed;
+    top: 20px;
+    left: 500px;
+}
+
+.crow{
+    position: sticky;
+    top: 300px;
+}
