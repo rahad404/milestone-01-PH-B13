@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* css for lobster font */
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    border: 3px #263138 solid;
+    border-radius: 10px;
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: yellowgreen;
+}
+
+.recipe{
+    width: 700px;
+}
+
+.image{
+    width: 450px;
+}
+
+.image img{
+    margin: 50px 0px 0px 0px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 10px 10px  10px rgb(50, 66, 16);
+}
+
+h1{
+    font-family: "Lobster", sans-serif;
+    margin: 10px;
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3{
+    font-family: "Lobster", sans-serif;
+    margin: 5px 0px 0px 0px;
+    /* font-size: 3em; */
+    color: #1b1b1b;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-align: justify;
+    color: #263138;
+}
+
+li{
+    margin: 0px 0px 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #263138;     
+}
+
+ol{
+    margin: 0px 0px 30px 0px;
+}
+
